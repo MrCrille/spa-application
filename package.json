@@ -1,0 +1,21 @@
+{
+  "name": "spa-application",
+  "version": "1.0.0",
+  "dependencies": {
+    "nuxt": "latest",
+    "now": "latest"
+  },
+
+  "now": {
+    "name": "spa-app"
+  },
+
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+
+    "deploy": "nuxt generate && now --public -A ../now.json dist"
+  }
+}
