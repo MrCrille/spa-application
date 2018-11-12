@@ -1,7 +1,12 @@
+# Ignoreing default .nuxt cache
 .nuxt
+
+# Dist content is only used for the now and have no reason the take place in our repository.
 dist
 
+# Cache of all nodeJS modules.
 node_modules
 
+# Lock files is used for cache the changes of a configuration in node. (Should always be ignored)
 yarn.lock
 package-lock.json
