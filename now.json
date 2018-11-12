@@ -1,4 +1,14 @@
 {
-    "name": "spa-application",
-    "version": 1.0
+  "name": "spa-application",
+  "version": 1.0,
+
+  "alias": ["spa-application"],
+
+  "files": [
+      "dist"
+  ],
+  
+  "public": true,
+
+  "static": "dist"
 }
